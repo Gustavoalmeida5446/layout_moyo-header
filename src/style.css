@@ -1,6 +1,12 @@
 html {
-  box-sizing: border-box;
-
+  html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
   --color-link-active: #00acdc;
   --nav-link-height: 60px;
 }
@@ -29,7 +35,7 @@ body {
 .logo__image {
   display: block;
   height: 40px;
-  width: 40px;
+  width: auto;
 }
 
 .nav__list {
