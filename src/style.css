@@ -1,12 +1,5 @@
 html {
-  html {
-    box-sizing: border-box;
-  }
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
 
   --color-link-active: #00acdc;
   --nav-link-height: 60px;
